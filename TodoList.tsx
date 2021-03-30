@@ -22,6 +22,7 @@ export default function TodoList(props: any) {
         const updatedList = props.list.filter((item:any) => {
             return item.id != id;
         })
+        
         props.setTodoList(updatedList);
     }
 
